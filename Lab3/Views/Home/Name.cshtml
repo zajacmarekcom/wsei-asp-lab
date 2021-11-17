@@ -1,0 +1,11 @@
+﻿@model Lab3.Models.FormModel
+
+<h1 class="display-4">Imię:</h1>
+<div class="row">
+    <div class="col-md-4">
+        @for(var i = 0; i < Model.Counter; i++)
+            {
+                <div>@Model.Name</div>
+            }
+    </div>
+</div>
